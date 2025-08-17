@@ -1,0 +1,13 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 ━━━━━━━━━━━━━━━━━━━━ 0s 0us/step
+Epoch 1/5
+469/469 ━━━━━━━━━━━━━━━━━━━━ 127s 261ms/step - loss: 0.1189 - val_loss: 0.1140
+Epoch 2/5
+469/469 ━━━━━━━━━━━━━━━━━━━━ 133s 243ms/step - loss: 0.1121 - val_loss: 0.1140
+Epoch 3/5
+469/469 ━━━━━━━━━━━━━━━━━━━━ 112s 239ms/step - loss: 0.1120 - val_loss: 0.1140
+Epoch 4/5
+469/469 ━━━━━━━━━━━━━━━━━━━━ 114s 243ms/step - loss: 0.1118 - val_loss: 0.1140
+Epoch 5/5
+469/469 ━━━━━━━━━━━━━━━━━━━━ 140s 239ms/step - loss: 0.1120 - val_loss: 0.1140
+313/313 ━━━━━━━━━━━━━━━━━━━━ 5s 15ms/step

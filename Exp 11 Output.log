@@ -1,0 +1,19 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 ━━━━━━━━━━━━━━━━━━━━ 0s 0us/step
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/usr/local/lib/python3.11/dist-packages/keras/src/backend/tensorflow/trainer.py:83: UserWarning: The model does not have any trainable weights.
+  warnings.warn("The model does not have any trainable weights.")
+WARNING:tensorflow:5 out of the last 20 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7b69d5e7af20> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Epoch 0 — D loss: 0.7554, G loss: 0.6905
+Epoch 100 — D loss: 0.8304, G loss: 0.5339
+Epoch 200 — D loss: 0.9571, G loss: 0.4137
+Epoch 300 — D loss: 1.1247, G loss: 0.3179
+Epoch 400 — D loss: 1.2676, G loss: 0.2574
+Epoch 500 — D loss: 1.3811, G loss: 0.2173
+Epoch 600 — D loss: 1.4716, G loss: 0.1890
+Epoch 700 — D loss: 1.5462, G loss: 0.1678
+Epoch 800 — D loss: 1.6092, G loss: 0.1514
+Epoch 900 — D loss: 1.6624, G loss: 0.1383

@@ -1,0 +1,11 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/imdb.npz
+17464789/17464789 ━━━━━━━━━━━━━━━━━━━━ 0s 0us/step
+Epoch 1/3
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/core/embedding.py:97: UserWarning: Argument `input_length` is deprecated. Just remove it.
+  warnings.warn(
+313/313 ━━━━━━━━━━━━━━━━━━━━ 23s 65ms/step - accuracy: 0.5398 - loss: 0.6811 - val_accuracy: 0.5562 - val_loss: 1.3645
+Epoch 2/3
+313/313 ━━━━━━━━━━━━━━━━━━━━ 18s 58ms/step - accuracy: 0.7548 - loss: 0.5759 - val_accuracy: 0.7968 - val_loss: 0.4423
+Epoch 3/3
+313/313 ━━━━━━━━━━━━━━━━━━━━ 19s 61ms/step - accuracy: 0.8531 - loss: 0.3508 - val_accuracy: 0.6880 - val_loss: 0.8462
+Test Accuracy: 0.69

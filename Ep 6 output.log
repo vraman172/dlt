@@ -1,0 +1,17 @@
+Downloading data from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+170498071/170498071 ━━━━━━━━━━━━━━━━━━━━ 3s 0us/step
+Downloading data from https://storage.googleapis.com/tensorflow/keras-applications/mobilenet_v2/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_96_no_top.h5
+9406464/9406464 ━━━━━━━━━━━━━━━━━━━━ 0s 0us/step
+Epoch 1/5
+782/782 ━━━━━━━━━━━━━━━━━━━━ 389s 488ms/step - accuracy: 0.6889 - loss: 0.9261 - val_accuracy: 0.7844 - val_loss: 0.6072
+Epoch 2/5
+782/782 ━━━━━━━━━━━━━━━━━━━━ 382s 488ms/step - accuracy: 0.8075 - loss: 0.5515 - val_accuracy: 0.7978 - val_loss: 0.5859
+Epoch 3/5
+782/782 ━━━━━━━━━━━━━━━━━━━━ 356s 455ms/step - accuracy: 0.8235 - loss: 0.4989 - val_accuracy: 0.8032 - val_loss: 0.5721
+Epoch 4/5
+782/782 ━━━━━━━━━━━━━━━━━━━━ 408s 488ms/step - accuracy: 0.8375 - loss: 0.4557 - val_accuracy: 0.8123 - val_loss: 0.5558
+Epoch 5/5
+782/782 ━━━━━━━━━━━━━━━━━━━━ 383s 490ms/step - accuracy: 0.8518 - loss: 0.4210 - val_accuracy: 0.8166 - val_loss: 0.5472
+313/313 ━━━━━━━━━━━━━━━━━━━━ 54s 173ms/step - accuracy: 0.8192 - loss: 0.5503
+Test Accuracy: 0.82
+1/1 ━━━━━━━━━━━━━━━━━━━━ 1s 1s/step
