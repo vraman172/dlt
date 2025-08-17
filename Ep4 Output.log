@@ -1,0 +1,15 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 ━━━━━━━━━━━━━━━━━━━━ 0s 0us/step
+/usr/local/lib/python3.11/dist-packages/keras/src/layers/convolutional/base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/5
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 56s 29ms/step - accuracy: 0.9131 - loss: 0.2929 - val_accuracy: 0.9821 - val_loss: 0.0514
+Epoch 2/5
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 49s 26ms/step - accuracy: 0.9843 - loss: 0.0509 - val_accuracy: 0.9840 - val_loss: 0.0455
+Epoch 3/5
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 83s 27ms/step - accuracy: 0.9910 - loss: 0.0287 - val_accuracy: 0.9864 - val_loss: 0.0427
+Epoch 4/5
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 49s 26ms/step - accuracy: 0.9936 - loss: 0.0197 - val_accuracy: 0.9884 - val_loss: 0.0361
+Epoch 5/5
+1875/1875 ━━━━━━━━━━━━━━━━━━━━ 81s 25ms/step - accuracy: 0.9962 - loss: 0.0127 - val_accuracy: 0.9854 - val_loss: 0.0491
+<keras.src.callbacks.history.History at 0x7e932f623b90>
